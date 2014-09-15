@@ -12,7 +12,7 @@ You need to add it to an existing post type like so:
 	 */
 	add_action( 'wp_loaded', 'add_tax_to_post_type', 0);
 	function add_tax_to_post_type() {
-		register_taxonomy_for_object_type('category', 'performance');
+		register_taxonomy_for_object_type('season', 'performance');
 	}
 
 ```
