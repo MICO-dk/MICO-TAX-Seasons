@@ -41,7 +41,7 @@ class MICO_TAX_Seasons {
 	 * @since    1.0.0
 	 * @var      string
 	 */
-	protected $plugin_slug = 'mico-cpt-seasons';
+	protected $plugin_slug = 'mico-tax-seasons';
 
 	/**
 	 * Instance of this class.
